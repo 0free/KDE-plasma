@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE gui>
+<gui translationDomain="katesql" version="9" name="katesql" library="katesqlplugin">
+ <MenuBar>
+  <Menu noMerge="1" name="SQL">
+   <text translationDomain="katesql">&amp;SQL</text>
+   <Action name="connection_create"/>
+   <Action name="connection_remove"/>
+   <Action name="connection_edit"/>
+   <Action name="connection_reconnect"/>
+   <Separator/>
+   <Action name="query_run"/>
+   <Action name="query_stop"/>
+  </Menu>
+ </MenuBar>
+ <ToolBar noMerge="1" name="SQLConnectionsToolBar">
+  <text translationDomain="katesql">SQL Connections Toolbar</text>
+ </ToolBar>
+ <ToolBar noMerge="1" name="SQLToolBar">
+  <text translationDomain="katesql">SQL Toolbar</text>
+  <Action name="query_stop"/>
+ </ToolBar>
+ <State name="has_connection_selected">
+  <enable>
+   <Action name="connection_remove"/>
+   <Action name="connection_edit"/>
+   <Action name="connection_reconnect"/>
+   <Action name="query_run"/>
+   <Action name="query_stop"/>
+  </enable>
+ </State>
+</gui>
+<!-- kate: space-indent on; indent-width 4; replace-tabs on; -->

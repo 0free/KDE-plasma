@@ -1,0 +1,7 @@
+[FileDialogSize]
+
+
+[KFileDialog Settings]
+Recent Files[$e]=user,file:$HOME
+Recent URLs[$e]=file:$HOME/,file:///home/
+detailViewIconSize=16

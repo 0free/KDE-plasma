@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE gui>
+<gui translationDomain="kategdbplugin" version="2" name="kategdbplugin" library="kategdbplugin">
+ <MenuBar>
+  <Menu noMerge="1" name="debug">
+   <Text translationDomain="kategdbplugin">&amp;Debug</Text>
+   <Action name="targets"/>
+   <Action name="argLists"/>
+   <Separator/>
+   <Action name="debug"/>
+   <Action name="kill"/>
+   <Action name="rerun"/>
+   <Separator/>
+   <Action name="toggle_breakpoint"/>
+   <Action name="step_in"/>
+   <Action name="step_over"/>
+   <Action name="step_out"/>
+   <Action name="move_pc"/>
+   <Action name="run_to_cursor"/>
+   <Action name="continue"/>
+   <Separator/>
+   <Action name="print_value"/>
+  </Menu>
+ </MenuBar>
+ <Menu noMerge="1" name="ktexteditor_popup">
+  <Action name="popup_gdb"/>
+ </Menu>
+ <ToolBar noMerge="1" name="gdbplugin">
+  <text translationDomain="kategdbplugin">GDB Plugin</text>
+ </ToolBar>
+</gui>
+<!-- kate: space-indent on; indent-width 4; replace-tabs on; -->

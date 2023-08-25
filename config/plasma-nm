@@ -1,0 +1,5 @@
+[General]
+HotspotName=user-hotspot
+HotspotPassword=
+ManageVirtualConnections=true
+UnlockModemOnDetection=true
